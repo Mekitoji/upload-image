@@ -1,8 +1,8 @@
 # Test
 
-Backend: koa@next
-Frontend: vanilla
-db: mongo
+Backend: koa@next  
+Frontend: vanilla  
+db: mongo  
 
 ## Start 
 ```bash
