@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload image</title>
+  <style>
+    #preview {
+      display: none;
+    }
+    .nav {
+      margin-bottom:20px;
+    }
+  </style>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="/login">Login</a>
+    </div>
+    <form name="uploadForm">
+      <div>
+        <label>Choose image:</label>
+        <input type="file" accept="image/*" name="file" id="file">
+      </div>
+      <div>
+        <label>Comment:</label>
+        <textarea name="comment" id="comment" cols=50 rows=5 ></textarea>
+      </div>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    <div><img height=400 id="preview" src="" alt="preview upload image"></div>
+    <div id="result">Result:</div>
+  </div>
+  <script src="./js/upload.js"></script>
+</body>
+</html>

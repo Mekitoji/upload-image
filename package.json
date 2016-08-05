@@ -1,0 +1,39 @@
+{
+  "name": "upload-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node -- index.js"
+  },
+  "author": "Vladmir Egorov <mekitojizzz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "nodemon": "^1.10.0"
+  },
+  "dependencies": {
+    "koa": "^2.0.0-alpha.4",
+    "koa-better-body": "^2.0.1",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-generic-session": "^1.11.3",
+    "koa-generic-session-mongo": "^0.2.5",
+    "koa-logger": "^2.0.0",
+    "koa-multer": "^1.0.0",
+    "koa-passport": "^2.2.2",
+    "koa-router": "^7.0.1",
+    "koa-socket": "^4.4.0",
+    "koa-static": "^2.0.0",
+    "mongoose": "^4.5.8",
+    "passport-local": "^1.0.0"
+  }
+}
